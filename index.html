@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>22 Reasons to Love You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ambient night sky, present behind every page -->
+<div class="sky" id="sky">
+  <div class="stars-layer" id="starsLayer"></div>
+  <div class="moon"></div>
+  <div class="shooting-stars" id="shootingStars"></div>
+</div>
+
+<!-- Mangesh, our dog -->
+<button class="mangesh" id="mangesh" aria-label="Mangesh the dog">🐶</button>
+
+<!-- Confetti burst, triggered when the finale letter opens -->
+<div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+<main id="app">
+
+  <!-- PAGE 1 — LANDING -->
+  <section class="page page--landing is-active" data-page="landing">
+    <div class="landing__content">
+      <p class="eyebrow">For Nakshtra</p>
+      <h1 class="landing__title">22 Reasons<br>to Love You</h1>
+      <p class="landing__subtitle">Twenty-two little reminders that loving you<br>has been the easiest thing I've ever done.</p>
+      <button class="btn btn--ghost" id="beginBtn">Begin</button>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- PAGE 2 — INTRO LETTER -->
+  <section class="page page--letter" data-page="letter">
+    <div class="paper paper--intro">
+      <div class="paper__body" id="introLetterBody"></div>
+      <button class="btn btn--paper" id="continueBtn">Continue</button>
+    </div>
+  </section>
+
+  <!-- PAGE 3 — CONSTELLATION -->
+  <section class="page page--constellation" data-page="constellation">
+    <p class="constellation__title">find your way through the stars</p>
+    <svg class="constellation__svg" id="constellationSvg" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid meet"></svg>
+    <p class="constellation__progress" id="constellationProgress">0 / 22 opened</p>
+  </section>
+
+  <!-- JOURNAL -->
+  <section class="page page--journal" data-page="journal">
+    <div class="envelope-wrap envelope-wrap--journal" id="journalEnvelopeWrap">
+      <button class="envelope" id="journalEnvelopeBtn" aria-label="Open the letter">
+        <div class="envelope__letter-peek"></div>
+        <div class="envelope__body">
+          <div class="envelope__flap"></div>
+          <div class="envelope__seal">
+            <span>N</span>
+          </div>
+        </div>
+      </button>
+      <p class="envelope__hint">tap to open</p>
+    </div>
+    <div class="notebook" id="notebookCard">
+      <p class="notebook__date" id="journalDate">18 August</p>
+      <p class="notebook__message" id="journalMessage"></p>
+      <div class="notebook__nav">
+        <button class="notebook__arrow" id="prevBtn">← Previous</button>
+        <span class="notebook__counter" id="journalCounter">1 / 22</span>
+        <button class="notebook__arrow" id="nextBtn">Next →</button>
+      </div>
+      <button class="notebook__back" id="backToSkyBtn">back to the stars</button>
+    </div>
+  </section>
+
+  <!-- ENDING -->
+  <section class="page page--ending" data-page="ending">
+    <div class="ending__burst" id="endingBurst">
+      <h2 class="ending__headline">Happy Birthday</h2>
+      <p class="ending__sub">My Love ❤️</p>
+    </div>
+    <div class="paper paper--final" id="finalLetter">
+      <button class="music-toggle" id="musicToggle" aria-label="Play background music" aria-pressed="false">
+        <span class="music-toggle__icon">🎵</span>
+      </button>
+      <p class="paper__date">5 September</p>
+      <div class="paper__body" id="finalLetterBody"></div>
+      <button class="btn btn--paper" id="restartBtn">Read it again</button>
+      <div id="bgMusicPlayer" class="bg-music-frame" aria-hidden="true"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
