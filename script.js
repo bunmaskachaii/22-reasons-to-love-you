@@ -46,7 +46,7 @@ const INTRO_LETTER = [
 const FINAL_LETTER = [
   "Happy birthday jaanu, honestly 22 reasons are still not enough to describe how special you are to me.",
   "I will never let you leave and I will never leave you, whether you take it as a blessing or a threat.",
-  "If you could see my thoughts, you would see yourself. You are so lean because you keep running in my head 24/7, and the reason I'm so fat is because I don't run in your head — in fact I'm not in your head at all, but I will give some head if you want.",
+  "If you could see my thoughts, you would see yourself. You are so lean because you keep running in my head 24/7, and the reason I'm so fat is because I don't run in your head, in fact I'm not in your head at all, but I will give some head if you want.",
   "Tracing back every letter I wrote really made me realize how much I love you and how special you are.",
   "Every place we go together, be it an auto ride, a cafe, or India Gate, the memories of them are so dear to me and I feel thankful that I made those memories with you.",
   "No matter how much time we spend together, it never feels like enough, and no matter how many reasons I write, my favorite one will always be that you're my boyfriend.",
