@@ -13,8 +13,8 @@
 // One entry per star on the constellation, in date order.
 // Aug 15 -> Sep 5 is exactly 22 days.
 const REASONS = [
-  { date: "15 August", text: "Btw Nakshtra, do you like Ishita? She told me you do. No matter what, I can't thank her enough for whatever has unfolded since then. My favourite person is turning 22 in 22 days, and this is my little effort to make it more special." },
-  { date: "16 August", text: "You are my favourite notification of the day, even though your first message in the morning somehow comes at 4 PM for some reason. I don't know why you text me so late, but I still love you baby." },
+  { date: "15 August", text: "June last year might be my most blessed month, where I TOOK THE INITIATIVE TO MESSAGE YOU. I will give some credit to Ishita as well, because of her we talked till 5 am for the first time and I got the chance to shoot my shot, but no matter what, I can't thank her enough for whatever has unfolded since then. My favourite person is turning 22 in 22 days, and this is my little effort to make it memorable." },
+  { date: "16 August", text: "You are my favourite notification of the day, even though your first message in the morning somehow comes at 4 PM for unknown cause, idk what you do at night instead of sleeping. I don't know why you text me so late, but I still love you baby." },
   { date: "17 August", text: "Your every hug and every kiss makes me so in love each time. I can never get enough of it, and I will never stop stealing kisses from your voluptuous, ginormous, juicy, big-ass lips. And for that I love you baby." },
   { date: "18 August", text: "I don't talk much. I've got very little to say, but you never make me feel bad about it. Instead, you speak for my portion too. Mere saamne jo tumhari te te chalti hai, I love you for that." },
   { date: "19 August", text: "I was once a slim-trim girl before meeting you. So much so that I used to fear the wind might blow me away. Ever since I started dating you, I've become a complete food digger because you get me food every freaking time. And if not food, then coffee for sure. Even though you're turning me into a fatass, I still love you baby." },
@@ -32,13 +32,13 @@ const REASONS = [
   { date: "31 August", text: "You are my tiraMISSU, my ice cream sandwich, and I love eating my sweets and my sweetheart. Love you my scrumptious honeybun sugarplum." },
   { date: "1 September", text: "I love having bhayankar chummachaati and the biryani-paratha combo. As you say, it might be the greatest day to experience that. I love you because I get to experience all of it with you." },
   { date: "2 September", text: "You were my acquaintance, then my friend, then my boyfriend, and now nothing less than my husband. I love the progress you've made. My best wishes for your future promotions. And for all your hard work I love you Mr. Lover." },
-  { date: "3 September", text: "You steal my stickers that I make with so much hard work with absolutely no shame. You even sold our son to Sunita. But then again, we can always make new kids through SLCP. I love SLCP, and you're required in it for all the effort you put into that process. Boy, I love you beyond imagination." },
+  { date: "3 September", text: "You steal my stickers that I make with so much hard work with absolutely no shame. You even sold our son to Sunita. But then again, we can always make new kids through SLCP. I love SLCP, and you're required in it and for all the effort you put into that process. I love you beyond imagination." },
   { date: "4 September", text: "It's almost your birthday baby. But then again, even though you're aging physically, there has been absolutely no improvement in your mental age. You still freaking annoy me on purpose, just like last year. Actually, even more than last year. My blood pressure isn't your biggest fan, but I definitely am, and I love you more than I did yesterday." }
 ];
 
 // Intro letter, shown right after the envelope opens.
 const INTRO_LETTER = [
-  "I made 22 letters, which you need to open on specific dates, don't you dare to open them all at once.",
+  "I made 22 letters, which you need to open on specific dates, I advise and request to not to open them all at once.",
   "Click on each star to find the letter."
 ];
 
@@ -50,7 +50,7 @@ const FINAL_LETTER = [
   "Tracing back every letter I wrote really made me realize how much I love you and how special you are.",
   "Every place we go together, be it an auto ride, a cafe, or India Gate, the memories of them are so dear to me and I feel thankful that I made those memories with you.",
   "No matter how much time we spend together, it never feels like enough, and no matter how many reasons I write, my favorite one will always be that you're my boyfriend.",
-  "Happy 22 baby. I love you."
+  "Happy 22nd baby. I love you."
 ];
 
 /* ---------- STATE ---------- */
